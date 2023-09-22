@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce6732b0-6ac5-4d6d-9b96-a69b251c6d6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Mak.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt1/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt2/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt3/StopWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt4/Fan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt5/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt6/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bt6/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ra/bt5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ra/bt5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +139,7 @@
       <workItem from="1695137116329" duration="3434000" />
       <workItem from="1695226786815" duration="10443000" />
       <workItem from="1695280813628" duration="9149000" />
-      <workItem from="1695330653637" duration="6053000" />
+      <workItem from="1695330653637" duration="10000000" />
     </task>
     <servers />
   </component>
@@ -168,8 +155,13 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ra/bt5/Main.java</url>
-          <line>98</line>
+          <line>102</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ra/bt5/Main.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

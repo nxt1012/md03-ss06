@@ -17,6 +17,9 @@ public class Main {
 //        Tạo menu chức năng
 //        Cần trả lời câu hỏi là khi khởi tạo một danh sách gồm 100 đối tượng Student mặc định như thế này thì cái gì chứa trong mảng kia
 //        Hỏi chatGPT: what will happen when i create an array includes  user-defined class's objects
+        studentList[0] = new Student(001, "Thành", (byte) 30, true, "HD", 0123456);
+        studentList[1] = new Student(002, "Minh", (byte) 20, true, "HN", 345678);
+        studentList[2] = new Student(003, "Mai", (byte) 10, false, "TB", 567890);
         hienThiMenu();
 
     }
@@ -70,6 +73,7 @@ public class Main {
         for (int i = 0; i < studentList.length; i++) {
             if (studentList[i].maHS == maHS) {
                 index = i;
+                break;
             }
         }
         return index;
@@ -136,6 +140,8 @@ public class Main {
 //                    cần sử dụng thông tin nhận được từ người dùng, khởi tạo đối tượng và gán vào vị trí còn trống
 //                    LẤY THÔNG TIN TỪ NGƯỜI DÙNG
 //        TODO: Cần kiểm tra mã học sinh nhập vào đã tồn tại hay chưa trước khi quyết định cho thêm
+
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Bạn đã lựa chọn thêm mới học sinh.");
         System.out.println("Vui lòng nhập vào các thông tin theo yêu cầu bên dưới: ");
@@ -216,6 +222,19 @@ public class Main {
     }
 
     public static void xoaHocSinh() {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhập vào mã học sinh muốn xóa: ");
+        int suaMaHS = sc.nextInt();
+        int index = timViTriHocSinhTrongDanhSach(studentList, suaMaHS);
+        if(index == -1){
+            System.out.println("Không tồn tại mã học sinh này!");
+            quayLaiDanhSach();
+        } else {
+            studentList[index] = null;
+            System.out.println("Mã học sinh đã được xóa");
+            quayLaiDanhSach();
+        }
     }
 
 
